@@ -57,3 +57,8 @@ lint.ignore = [
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"
+
+[dependency-groups]
+dev = [
+    "nbstripout>=0.8.1",
+]
